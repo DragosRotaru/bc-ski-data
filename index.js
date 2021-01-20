@@ -44,11 +44,10 @@ const callAPI = listing => new Promise(resolve => {
 
 // Filter Listings: Listing[] => Listing[]
 const filterListings = listings => listings
-.filter((l, i, a) => a.some(l2 => l2.listingId === l.listingId || l2.detailsUrl === l.detailsUrl || l2.uid === l2.uid)) // Unique
-.filter(l => l.host_internet_access ? l.host_internet_access === "1" : true) // WWOOF Internet
-.filter(l => l.host_max_wwoofers ? l.host_max_wwoofers !== "1" : true) // WWOOF More than One WWOOFER
-.filter(l => l.host_winter_wwoofing_ ? l.host_winter_wwoofing_ !== "1" : true) // WWOOF Winter WWOOFing OK
-.filter(l => l.listingAccommodation ? l.listingAccommodation.trim() !== "1" && l.listingAccommodation.trim() !== "1 only" : true) // HelpX More than 1
+.filter(l => l.host_internet_access !== undefined ? l.host_internet_access === "1" : true) // WWOOF Internet
+.filter(l => l.host_max_wwoofers !== undefined ? l.host_max_wwoofers !== "1" : true) // WWOOF More than One WWOOFER
+.filter(l => l.host_winter_wwoofing_ !== undefined ? l.host_winter_wwoofing_ === "" : true) // WWOOF Winter WWOOFing OK
+.filter(l => l.listingAccommodation !== undefined ? l.listingAccommodation.trim() !== "1" && l.listingAccommodation.trim() !== "1 only" : true) // HelpX More than 1
 
 // Get Embedded Listings->Resorts Distances: Listing[], Resort[] => EmbeddedListing[]
 const embedResortsAndDistances = async (listings, resorts) => Promise.all(
@@ -212,7 +211,7 @@ const buildDataSet = async () => {
   const sorted = sortScoredListingsByScore(scored);
   console.log("Sorted: ", sorted.length);
   const output = cleanOutput(sorted)
-  fs.writeFileSync(`sorted-${Date.now()}.json`, JSON.stringify(sorted, null, 2));
+  fs.writeFileSync(`output-${Date.now()}.json`, JSON.stringify(output, null, 2));
   console.log("Saved");
 }
 

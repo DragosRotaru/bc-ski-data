@@ -6,7 +6,7 @@
     "longitude": -114.9380363,
     "address": "1000 Natal Rd",
     "locality": "Elkford",
-    "seasonPass":null,
+    "seasonPass": null,
     "shuttle": null,
     "nightSkiing": false,
     "description": "small and boring"
@@ -34,7 +34,6 @@
     "shuttle": true,
     "nightSkiing": true,
     "description": "night skiing on weekends till 8pm, two chairs"
-
   },
   {
     "index": 3,
@@ -55,7 +54,7 @@
     "longitude": -117.3015278,
     "address": "499 Salmo Ski Hill Rd",
     "locality": "Salmo",
-    "seasonPass": true,
+    "seasonPass": null,
     "shuttle": false,
     "nightSkiing": true,
     "description": "small hill, night skiing Mon to Thurs - requires seperate pass, hill closed on friday, lame"
@@ -67,7 +66,7 @@
     "longitude": -117.8193897,
     "address": "4300 Red Mountain Rd",
     "locality": "Rossland",
-    "seasonPass": 1971.90,
+    "seasonPass": 1971.9,
     "shuttle": true,
     "nightSkiing": true,
     "description": "Pass perks: Free Night Skiing, 25% off hot chocolate, tea and brewed coffee, Lift ticket discounts at tons of reciprocal resorts, shuttle from Rossland $3/ride"
@@ -79,9 +78,9 @@
     "longitude": -115.0872374,
     "address": "5339 Fernie Ski Hill Rd",
     "locality": "West Fernie",
-    "seasonPass": 3777.90,
+    "seasonPass": 3777.9,
     "shuttle": true,
-    "nightSkiing": false ,
+    "nightSkiing": false,
     "description": "shuttle from elkford up to every 20min (less in evenings) $5/ride"
   },
   {
@@ -175,7 +174,7 @@
     "longitude": -128.9533636,
     "address": "4544 Lakelse Ave",
     "locality": "Terrace",
-    "seasonPass": 1862.80,
+    "seasonPass": 1862.8,
     "shuttle": false,
     "nightSkiing": false,
     "description": "Moutain Co-operative"
@@ -211,7 +210,7 @@
     "longitude": -121.8839734,
     "address": "3000 Purden Ski Hill Rd",
     "locality": "Purden",
-    "seasonPass": 1835.00,
+    "seasonPass": 1835.0,
     "shuttle": false,
     "nightSkiing": false,
     "description": "PURDEN MAY EXPERIENCES FREQUENT INTERNET OUTAGES"
@@ -223,7 +222,7 @@
     "longitude": -126.3521018,
     "address": "4 Ridge Rd",
     "locality": "Woss",
-    "seasonPass": 1365.00,
+    "seasonPass": 1365.0,
     "shuttle": false,
     "nightSkiing": false,
     "description": ""
@@ -247,8 +246,8 @@
     "longitude": -116.2386686,
     "address": "1921 Panorama Dr",
     "locality": "Panorama",
-    "seasonPass": 2008.00,
-    "shuttle": true ,
+    "seasonPass": 2008.0,
+    "shuttle": true,
     "nightSkiing": false,
     "description": "free shuttle to columbia valley"
   },
@@ -259,7 +258,7 @@
     "longitude": -120.9159271,
     "address": "7500 Hwy 3",
     "locality": "Manning Park West",
-    "seasonPass": null ,
+    "seasonPass": null,
     "shuttle": false,
     "nightSkiing": true,
     "description": "two free days at Apex, Mt. Seymour, Mt. Washington & Baldy Mountain Resort"
@@ -271,7 +270,7 @@
     "longitude": -117.0451754,
     "address": "1500 Kicking Horse Trail",
     "locality": "Golden",
-    "seasonPass": 3683.40,
+    "seasonPass": 3683.4,
     "shuttle": false,
     "nightSkiing": false,
     "description": ""
@@ -295,7 +294,7 @@
     "longitude": -122.453127,
     "address": "17875 Prince George Hwy 16 E",
     "locality": "Ferndale-Tabor",
-    "seasonPass": 1001.70,
+    "seasonPass": 1001.7,
     "shuttle": false,
     "nightSkiing": false,
     "description": "good biking in summer"
@@ -307,7 +306,7 @@
     "longitude": -122.609943,
     "address": "55581 Powder King Rd",
     "locality": "Pine Pass",
-    "seasonPass": 2005.00,
+    "seasonPass": 2005.0,
     "shuttle": true,
     "nightSkiing": false,
     "description": "shuttle is pricey ~ $30/ride"
@@ -321,7 +320,7 @@
     "locality": "Clearwater",
     "seasonPass": null,
     "shuttle": false,
-    "nightSkiing":false ,
+    "nightSkiing": false,
     "description": "tiny"
   },
   {
@@ -367,7 +366,7 @@
     "longitude": -125.3039175,
     "address": "1 Strathcona Pky",
     "locality": "Mt Washington",
-    "seasonPass": 2317.90,
+    "seasonPass": 2317.9,
     "shuttle": false,
     "nightSkiing": true,
     "description": "shuttle exists but sold out, 6IXPAK tickets for $534 each, six days for when ever, whoever. Price above is for Gold ticket which includes night skiing. Regular pass is $100 less/person"
@@ -391,7 +390,7 @@
     "longitude": -121.2622874,
     "address": "318 Birch Pl",
     "locality": "Forest Grove",
-    "seasonPass": 1459.50,
+    "seasonPass": 1459.5,
     "shuttle": false,
     "nightSkiing": false,
     "description": "family oriented"
@@ -403,7 +402,7 @@
     "longitude": -127.2796617,
     "address": "339 Prairie Rd",
     "locality": "Smithers",
-    "seasonPass": 1448.00,
+    "seasonPass": 1448.0,
     "shuttle": true,
     "nightSkiing": false,
     "description": "shuttle is $5/ride, not that frequent and requires pre-booking"
@@ -422,36 +421,39 @@
   },
   {
     "index": 35,
+    "dopeness": 1,
     "name": "Kimberley Ski & Summer Resort",
     "latitude": 49.6883619,
     "longitude": -116.0047743,
     "address": null,
     "locality": "Kimberley",
-    "seasonPass": 2381.40,
+    "seasonPass": 2381.4,
     "shuttle": true,
     "nightSkiing": true,
     "description": ""
   },
   {
     "index": 36,
+    "dopeness": 1,
     "name": "Revelstoke Mountain Resort",
     "latitude": 50.9592023,
     "longitude": -118.1642368,
     "address": "2950 Camozzi Rd",
     "locality": "Revelstoke",
-    "seasonPass": 2848.00,
+    "seasonPass": 2848.0,
     "shuttle": true,
     "nightSkiing": false,
     "description": "Bus: EvvRev Resort Express"
   },
   {
     "index": 37,
+    "dopeness": 0.5,
     "name": "Grouse Mountain",
     "latitude": 49.3721144,
     "longitude": -123.0989765,
     "address": "6400 Nancy Greene Way",
     "locality": "North Vancouver",
-    "seasonPass": 1627.50,
+    "seasonPass": 1627.5,
     "shuttle": true,
     "nightSkiing": true,
     "description": "Public transit goes straight o the base"
